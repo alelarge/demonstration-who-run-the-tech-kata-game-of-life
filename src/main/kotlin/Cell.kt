@@ -11,6 +11,8 @@
             val liveNeighbours = neighbours.count {it.state == CellState.ALIVE}
             if (liveNeighbours < 2 || liveNeighbours >3 ){
                 state = CellState.DEAD
+            } else {
+                state = CellState.ALIVE
             }
         }
     }
