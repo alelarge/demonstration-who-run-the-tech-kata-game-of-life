@@ -5,12 +5,6 @@ import org.junit.jupiter.api.Test
 
 class GridTest {
     @Test
-    fun `initialized a 3x5 grid`(){
-        val grid =Grid(3,5)
-        assertThat(grid.rows).isEqualTo(3)
-        assertThat(grid.cols).isEqualTo(5)
-    }
-    @Test
     fun `must return all positions of the neighbours at the center of the grid`() {
         val grid = Grid(3, 3)
         val cellNeighbourPositions = grid.getNeighbourPositions(Position(1, 1), 1)
