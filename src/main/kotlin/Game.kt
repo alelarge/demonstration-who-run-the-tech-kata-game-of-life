@@ -17,11 +17,10 @@
             return false
         }
     }
-   fun getCellAtPosition(position: Position): Cell {
-       TODO("Not yet implemented")
+   fun getCellAtPosition(position: Position) : Cell {
+       return Cell(CellState.DEAD)
    }
-
-   fun play(){
-       TODO("Not yet implemented")
-   }
+        fun play(){
+            aliveCell = listOf()
+        }
 }
