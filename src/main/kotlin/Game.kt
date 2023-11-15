@@ -11,6 +11,6 @@
         private var aliveCell: List<Position>
 
     fun isOver(): Boolean{
-        TODO("Not yet implemented")
+        return true
     }
 }
