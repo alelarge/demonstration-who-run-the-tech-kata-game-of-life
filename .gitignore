@@ -7,8 +7,9 @@ build/
 ### IntelliJ IDEA ###
 .idea/modules.xml
 .idea/misc.xml
- .idea/kotlinc.xml
+.idea/kotlinc.xml
 .idea/jarRepositories.xml
+.idea/workspace.xml
 .idea/compiler.xml
 .idea/libraries/
 *.iws
