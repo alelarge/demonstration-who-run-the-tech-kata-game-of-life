@@ -9,10 +9,22 @@
 
         fun evolve(neighbours: List<Cell>){
             val liveNeighbours = neighbours.count {it.state == CellState.ALIVE}
-            if (liveNeighbours < 2 || liveNeighbours >3 ){
-                state = CellState.DEAD
-            } else {
-                state = CellState.ALIVE
+            state = when (state) {
+                CellState.ALIVE -> {
+                    if (liveNeighbours < 2 || liveNeighbours > 3) {
+                        CellState.DEAD
+                    } else {
+                        CellState.ALIVE
+                    }
+                }
+
+                CellState.DEAD -> {
+                    if (liveNeighbours == 3) {
+                        CellState.ALIVE
+                    } else {
+                        CellState.DEAD
+                    }
+                }
             }
         }
     }
