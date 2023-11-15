@@ -14,4 +14,25 @@ class GameTest {
         val game = Game(grid, listOf(Position(0,0)))
         assertThat(game.isOver()).isFalse
     }
+    @Test
+    fun `horizontal cells evolve into vertical cells in the next generation`() {
+        //Given
+        val grid = Grid(3, 3)
+        val initialAliveCells = listOf(
+            Position(1, 0), Position(1, 1), Position(1, 2)
+        )
+        //When
+        val game = Game(grid, initialAliveCells)
+        //Then
+
+        assertThat(game.getCellAtPosition(Position(1, 0)).isAlive()).isTrue
+        assertThat(game.getCellAtPosition(Position(1, 1)).isAlive()).isTrue
+        assertThat(game.getCellAtPosition(Position(1, 2)).isAlive()).isTrue
+
+        game.play()
+
+        assertThat(game.getCellAtPosition(Position(0, 1)).isAlive()).isTrue
+        assertThat(game.getCellAtPosition(Position(1, 1)).isAlive()).isTrue
+        assertThat(game.getCellAtPosition(Position(2, 1)).isAlive()).isTrue
+    }
 }

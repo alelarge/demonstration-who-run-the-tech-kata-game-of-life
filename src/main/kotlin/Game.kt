@@ -17,4 +17,11 @@
             return false
         }
     }
+   fun getCellAtPosition(position: Position): Cell {
+       TODO("Not yet implemented")
+   }
+
+   fun play(){
+       TODO("Not yet implemented")
+   }
 }
