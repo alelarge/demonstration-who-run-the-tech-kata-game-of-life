@@ -18,9 +18,24 @@
         }
     }
    fun getCellAtPosition(position: Position) : Cell {
-       return Cell(CellState.DEAD)
+       if(aliveCell.contains(position)){
+           return Cell(CellState.ALIVE)
+       } else {
+           return Cell(CellState.DEAD)
+       }
    }
         fun play(){
-            aliveCell = listOf()
+            val aliveCellPositionForCurrentTurn : MutableList<Position> = mutableListOf()
+            while(grid.hasNext()){
+                val position = grid.next()
+                val neighbour = grid.getNeighbourPositions(position,1).map { p -> getCellAtPosition(p)}
+                val cell = getCellAtPosition(position)
+                cell.evolve(neighbour)
+                if(cell.isAlive()){
+                    aliveCellPositionForCurrentTurn.add(position)
+                }
+            }
+            aliveCell = aliveCellPositionForCurrentTurn
+            grid.reset()
         }
 }

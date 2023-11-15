@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87de4843-7670-4125-bd76-818a372c7c19" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Game.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Game.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Grid.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Grid.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,8 +68,8 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.GameTest.horizontal cells evolve into vertical cells in the next generation">
-    <configuration name="GameOfLIfeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.GameTest">
+    <configuration name="CellTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -82,7 +82,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;GameOfLIfeTest&quot;" />
+            <option value="&quot;CellTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -186,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.GameTest.horizontal cells evolve into vertical cells in the next generation" />
         <item itemvalue="Gradle.GameTest" />
+        <item itemvalue="Gradle.CellTest" />
+        <item itemvalue="Gradle.GameTest.horizontal cells evolve into vertical cells in the next generation" />
         <item itemvalue="Gradle.GameTest.at the beginning of the game game of life, if you have living cells, the game continues" />
         <item itemvalue="Gradle.GameTest.at the start of the game game of life, if I have no living cells then the game is over" />
-        <item itemvalue="Gradle.GameOfLIfeTest" />
       </list>
     </recent_temporary>
   </component>
