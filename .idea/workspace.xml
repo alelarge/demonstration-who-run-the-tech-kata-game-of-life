@@ -63,7 +63,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.CellTest">
+  <component name="RunManager" selected="Gradle.CellTest.cell should be alive when initialized as alive">
     <configuration name="CellTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -181,8 +181,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CellTest" />
         <item itemvalue="Gradle.CellTest.cell should be alive when initialized as alive" />
+        <item itemvalue="Gradle.CellTest" />
         <item itemvalue="Gradle.GridTest.must return all positions of the neighbours of the cell at bottom right" />
         <item itemvalue="Gradle.GridTest" />
         <item itemvalue="Gradle.GridTest.must return all positions of the neighbours at the center of the grid" />

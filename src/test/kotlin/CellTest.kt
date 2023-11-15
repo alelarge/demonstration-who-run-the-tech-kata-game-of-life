@@ -7,4 +7,10 @@ class CellTest {
         val aliveCell = Cell(CellState.ALIVE)
         assertThat(aliveCell.isAlive()).isTrue
     }
+
+    @Test
+    fun `cell should be dead when initialized as dead`(){
+        val aliveCell = Cell(CellState.DEAD)
+        assertThat(aliveCell.isAlive()).isFalse
+    }
 }
