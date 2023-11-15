@@ -65,7 +65,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.GameTest">
+  <component name="RunManager" selected="Gradle.GameTest.at the beginning of the game game of life, if you have living cells, the game continues">
     <configuration name="GameOfLIfeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -103,6 +103,29 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;GameTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="GameTest.at the beginning of the game game of life, if you have living cells, the game continues" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;GameTest.at the beginning of the game game of life, if you have living cells, the game continues&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -158,36 +181,13 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="GridTest.must return all positions of the neighbours of the cell at the center of the grid" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;GridTest.must return all positions of the neighbours of the cell at the center of the grid&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GameTest.at the beginning of the game game of life, if you have living cells, the game continues" />
         <item itemvalue="Gradle.GameTest" />
         <item itemvalue="Gradle.GameTest.at the start of the game game of life, if I have no living cells then the game is over" />
         <item itemvalue="Gradle.GameOfLIfeTest" />
         <item itemvalue="Gradle.GridTest" />
-        <item itemvalue="Gradle.GridTest.must return all positions of the neighbours of the cell at the center of the grid" />
       </list>
     </recent_temporary>
   </component>
